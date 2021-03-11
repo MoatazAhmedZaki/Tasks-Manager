@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./imgs/slo.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+.navbar-circle{ background-color: #008bff; color: black!important; border-radius: 50%;}
+.navbar-nav a {
+  padding: 10px;
+  font-weight: 900;
+  color: #008bff;
+}
+.navbar-nav a:hover {
+  color: white;
+}
+
+.project-list h1 {
+  color: white;
+}
+
+.card-content-title {
+  font-weight: 700;
+}
+
+.Notifications {
+  list-style: none;
+}
+
+.blue-text {
+  color: #008bff;
+}
+.white-text {
+  color: white;
+}
+
+.white-text:hover {
+  color: white;
+}
+.black-text {
+  color: black;
+}
+
+.black-text:hover {
+  color: black;
+}
+
+.gray-text {
+  color: rgb(204, 204, 204);
+}
+
+.p-0 p {
+  padding: 0 !important;
+}
+
+.project-summary {
+  position: relative;
+}
+
+.blacklayout {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+}
+
+.project-summary:hover .blacklayout {
+  opacity: 1;
+}
+.card {
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .rev {
+    flex-direction: column-reverse;
+  }
+}
